@@ -18,10 +18,7 @@ https://market.pmnd.rs/
     <script src="lib/gesture-detector.js"></script>
     <script src="lib/gesture-handler.js"></script> 
     
-    <!-- A-FrameとAR.jsのA-FrameバージョンのJavaScriptとlook-atのためのライブラリ -->
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>  
+
 
   </head>
   
@@ -38,13 +35,13 @@ https://market.pmnd.rs/
 
       <!-- 座標 -->
       <a-text
-        value="This content will always face you."
+        value="Hello!."
         look-at="[gps-camera]"
         scale="50 50 50"
         gps-entity-place="latitude: 35.15883147813384; longitude: 136.98683794735467;"
       ></a-text>
       
-      <!-- GPS -->
+      <!-- GPS情報 -->
       <a-camera gps-camera rotation-reader> </a-camera>
 
       <!-- アセット -->
